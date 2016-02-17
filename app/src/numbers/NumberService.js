@@ -1,8 +1,8 @@
 (function(){
   'use strict';
 
-  angular.module('users')
-         .service('numberService', ['$q', UserService]);
+  angular.module('numbers')
+         .service('numberService', ['$q', NumberService]);
 
   /**
    * Users DataService
